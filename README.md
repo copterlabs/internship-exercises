@@ -11,6 +11,15 @@ The Exercises
 
 Get a copy of the code on your local machine.
 
+#### Don't Forget to Initialize Your Submodules!
+
+After pulling the local copy, run the following:
+
+```sh
+git submodule init
+git submodule update
+```
+
 
 ### Create a Feature Branch
 
@@ -32,8 +41,10 @@ In the child theme, it needs to be changed to:
 
 ```html
 Modified by
-<a href="{INSERT_YOUR_GITHUB_LINK}">{INSERT_YOUR_NAME}</a>
+<a href="https://github.com/your_username">Your Name Here</a>
 ```
+
+**Hints:** WordPress uses *Template Hierarchy* to determine which files to load in the child theme. Start by checking that out.
 
 
 ### Commit Your Changes and Submit a Pull Request
