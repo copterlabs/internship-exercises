@@ -33,10 +33,11 @@ In the child theme, it needs to be changed to:
 ```html
 Modified by
 <a href="{INSERT_YOUR_GITHUB_LINK}">{INSERT_YOUR_NAME}</a>
+```
 
 
 ### Commit Your Changes and Submit a Pull Request
 
-After completing the changes, submit a pull request to the [main repo](https://github.com/jlengstorf/internship-exercises) for review.
+After completing the changes, submit a pull request to the [main repo](https://github.com/copterlabs/internship-exercises) for review.
 
 
