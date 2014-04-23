@@ -44,7 +44,12 @@ Modified by
 <a href="https://github.com/your_username">Your Name Here</a>
 ```
 
-**Hints:** WordPress uses *Template Hierarchy* to determine which files to load in the child theme. Start by checking that out.
+#### Hints
+
+ 1. *Child Themes* in WordPress are used so the parent theme can be reused across 
+    multiple projects. *You cannot modify the parent theme, or you'll break future updates for the project.*
+ 2. WordPress uses *Template Hierarchy* to determine which files are loaded. Start 
+    by checking that out.
 
 
 ### Commit Your Changes and Submit a Pull Request
