@@ -19,7 +19,7 @@
             </div>
             <div class="col-sm-6 text-muted text-right credit">
                 <p>
-                    Powered by
+                    Modified by
                     <a href="https://github.com/dunphyben">Benjamin Dunphy</a>
                 </p>
             </div>
