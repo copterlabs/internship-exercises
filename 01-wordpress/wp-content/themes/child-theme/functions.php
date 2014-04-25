@@ -19,16 +19,16 @@ require_once 'includes/load.php';
 /**
  * THEME INITIALIZATION
  * --------------------
- * 
+ *
  * This function runs after the parent theme is setup.
  *
- * Use this function to hook anything that overwrites RotorWash. It's important 
- * that any actions that override or alter the parent theme are hooked to this 
+ * Use this function to hook anything that overwrites RotorWash. It's important
+ * that any actions that override or alter the parent theme are hooked to this
  * action, because otherwise they won't work.
  *
- * Read more: 
+ * Read more:
  * - http://codex.wordpress.org/Plugin_API/Action_Reference/after_setup_theme
- * 
+ *
  * @return void
  */
 function hb_setup_theme(  ) {
@@ -40,7 +40,7 @@ function hb_setup_theme(  ) {
     /*
      * CUSTOM IMAGE SIZES
      * ------------------
-     * Every image size used in the layout should have a custom image size 
+     * Every image size used in the layout should have a custom image size
      * associated with it. Set them here.
      *************************************************************************/
     //add_image_size( $name, $width = 0, $height = 0, $crop = false )
@@ -86,7 +86,7 @@ function hb_enqueue_assets(  ) {
     /*
      * SCRIPTS
      **************************************************************************/
-    
+
     // If a theme JS file is built, include it
     if (is_readable(ASSETS_PATH . '/js/main.min.js')) {
         wp_enqueue_script('theme-js',
