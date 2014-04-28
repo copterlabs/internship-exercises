@@ -23,7 +23,7 @@ git submodule update
 
 ### Create a Feature Branch
 
-Pull a new branch in Git for your changes.
+Create a new branch in Git for your changes.
 
 
 ### Modify the WordPress Child Theme
